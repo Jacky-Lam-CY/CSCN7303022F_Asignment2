@@ -4,6 +4,8 @@
 #include <vector>
 using namespace std;
 
+#define PRE_RELEASE
+
 typedef struct STUDENT_DATA {
 	string firstName;
 	string lastName;
