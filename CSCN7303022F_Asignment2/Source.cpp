@@ -24,5 +24,13 @@ int main() {
 		}
 	}
 
+#if _DEBUG
+	for (int i = 0; i < studentDataList.size(); i++) {
+		cout << studentDataList[i].firstName << " " << studentDataList[i].lastName << endl;
+	}
+#endif
+
+
+
 	myFile.close();
 }
